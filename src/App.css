@@ -1,3 +1,16 @@
+p {
+  font-size: 16px;
+  font-family: unset;
+}
+h1 {
+  color: #89bcc4;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: cursive;
+}
+.info {
+  margin: 20px 0px;
+}
 .App-photo {
   width: 140px;
   height: 140px;
@@ -11,43 +24,23 @@ img.photo-profile {
 }
 
 .App {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.App-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 0px #000;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
